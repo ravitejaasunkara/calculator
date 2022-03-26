@@ -1,25 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+/*import Greet from './components/GreetClass';
+import GreetFunctional from './components/GreetFunctional';
+import classOne from './components/WithJSX';
+import WithJSX from './components/WithJSX';
+import Propsss from './components/Proppsss';
+import Message from './components/Message';*/
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<GreetFunctional />
+      <WithJSX />
+      <Propsss name="raviteja" />
+      <Propsss name="daniel shekar" />
+      <Propsss name="bheemla nayak" />
+      <Message />*/}
+      <Counter />
     </div>
   );
 }
-
 export default App;
