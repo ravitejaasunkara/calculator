@@ -1,0 +1,19 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    width: 20%;
+    background-color: blue;
+}
+.form-control{
+    height: 60px;
+    font-size: 2rem;
+}
+button{
+    background-color: red;
+}
